@@ -4,6 +4,7 @@
 
 body {
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 body, a {
@@ -69,14 +70,14 @@ li:hover, li:focus {
 a {
     font-size: 1.5rem;    
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 500;
 }
 
 .insta-tag {
     background: linear-gradient(-45deg, #98f1db, #e7ab9e, #ea9cb8, #ea9cb8, #8fcfe4, #98f1db);
     background-size: 200% 200%;
 	animation: gradient 15s ease infinite;
-    /* animation: none; */
+    background-clip: inherit;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -94,5 +95,5 @@ a:hover, a:focus, a:active {
 
 .enlace {
     text-align: center;
-    /* padding: 1em; */
+    font-size: 1.2rem;
 }
